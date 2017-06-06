@@ -25,7 +25,7 @@ class BubbleChart extends Component {
 
   render() {
     return (
-      <div className={this.props.className} ref={this.loadChart} />
+      <div id={this.props.id} className={this.props.className} ref={this.loadChart} />
     );
   }
 }
